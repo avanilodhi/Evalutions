@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitverse</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header{
+            background-color: #3a3204;
+            padding: 10px;
+            border-radius: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border:5px ;
+            
+
+        }
+
+        .logo{
+            width: 150px;
+            height: auto;
+        }
+        .menu{
+           
+            display: flex;
+           
+        }
+        .menu li {
+            margin-right: 20px; 
+        }
+
+        .menu li a{
+           
+            color: white;   
+            text-decoration: none;
+        }
+
+        .connect-wallet-button{
+            background-color: rgb(255, 230, 0);
+            padding: 10px 20px;
+            border: 5px;
+            border-radius: 5px;
+            color: black;
+            font-weight: bold;
+            cursor: pointer;
+
+        }
+
+        .context{
+            text-align: center;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .context img {
+            max-width: 45%;
+            align-items: center;
+        }
+
+        .context p{
+            margin-top: 10px;
+            line-height: 150%;
+        }
+
+        .get-started-button{
+            background-color: #ffbb00de;
+            color: black;
+            padding: 10px 20px;
+            border: 2px solid white;
+            border-radius: 20px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: background-color 0.3s, color 0.3s;
+            font-weight: bold;
+        }
+
+        .get-started-button:hover{
+            background-color:rgba(255, 255, 0, 0.338);
+            color: white;
+        }
+
+        .new-section{
+            text-align: center;
+            margin-top: 50px;
+        }
+        .new-section h1{
+            display: inline-block;
+            color: white;
+
+        }
+        .new-section h1 span{
+            color: #FECC00;
+
+
+        }
+        .new-section h1 span::after{
+            content: '';
+            display: block;
+            width: 50px;
+            border-bottom: 2px solid #FECC00 ;
+            margin: 10px auto;
+        }
+        .new-section p{
+            margin-top: 10px;
+            line-height: 150%;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div>
+            <img src="logo.png" alt="logo" class="logo">
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Our Product</a></li>
+                <li><a href="#">Token Utility</a></li>
+                <li><a href="#">Roadmap</a></li>
+            </ul>
+        </nav>
+        <button class="connect-wallet-button">Connect Wallet</button>
+        
+    </header>
+    <div class="context">
+        <img src="Frame 4.png" alt="Bitverse">
+        <p>Lorem ipsum dolor sit amet consectetur. Porta amet tellus suspendisse id velit proin<br>eleifend id mauris. Amet sem in id eget nunc quam lacus tellus augue.</p>
+        <a href="#" class="get-started-button"> Get Started &gt; </a>
+    
+    </div>
+    <div class="new-section">
+        <h1>Our<span> Products</span></h1>
+        <p>Pellentesque habitant morbi tristique senectus et netus et Pellentesque habitant morbi.</p>
+    </div>
+    
+</body>
+</html>
